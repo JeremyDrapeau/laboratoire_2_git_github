@@ -3,7 +3,9 @@ def askMsg() -> str :
     temp = input("Quel est le message a afficher? : ")
     return temp
 
-# Demande un chiffre a l'utilisateur
+# Demande un chiffre a l'utilisatseur
 def askNum() -> int :
-    temp : int = int(input("Combien de fois voullez-vous l\'afficher"))
-    return temp
+    temp = ""
+    while not temp.isnumeric() :
+        temp = input("Combien de fois voullez-vous l\'afficher")
+    return int(temp)
