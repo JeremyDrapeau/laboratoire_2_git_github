@@ -1,6 +1,6 @@
 # Demande un message a l'utilisateur
 def askMsg() -> str : 
-    temp = input("Quel est le message a afficher? : ")
+    temp = input("Quel est le message a afficher? (q pour quitter) : ")
     return temp
 
 # Demande un chiffre a l'utilisatseur oui oui

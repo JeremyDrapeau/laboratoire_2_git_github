@@ -1,6 +1,9 @@
 from function import *
 
-msg : str = askMsg()
-num : int = askNum()
-for i in range(num) :
-    print(msg + "\n")
+while True:
+    msg : str = askMsg()
+    if msg == "q" or msg == "Q":
+        break
+    num : int = askNum()
+    for i in range(num):
+        print(msg)
