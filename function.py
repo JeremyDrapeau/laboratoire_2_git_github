@@ -3,7 +3,7 @@ def askMsg() -> str :
     temp = input("Quel est le message a afficher? : ")
     return temp
 
-# Demande un chiffre a l'utilisatseur
+# Demande un chiffre a l'utilisatseur oui oui
 def askNum() -> int :
     temp = ""
     while not temp.isnumeric() :
